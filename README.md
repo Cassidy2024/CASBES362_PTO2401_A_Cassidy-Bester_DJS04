@@ -6,6 +6,10 @@ The "Book Connect" project provides an opportunity for students to refine a full
 
 ![alt text](image.png)
 
+#### Discussion and Reflection written report:
+
+I refactored the code by reorganizing it in a way that flows logically and corresponds with the webpage, making it easier to read and navigate. I created functions and named them in such a way that it corresponds with its task. This not only makes the code readable and easier to understand and navigate but leaves room for the code to be expanded as reusability of objects and functions is ensured . The code was made more manageable and redundancy was reduced. The challenges that I faced during the refactoring process was ensuring that the code still worked as needed after all the changes made, mainly the filter function, but I was able to overcome this challenge with patience and logical thinking.  This exercise has deepened my understanding of JavaScript functions and how functions make the code more readable and maintainable. In addition I also made use of "prettier", which I learnt about in the previous module, to format my code in a good and consistent way.
+
 #### Goals
 
 - **Refactor Existing Code**: Analyse and refactor the given JavaScript and HTML code to improve its structure using objects and functions.
