@@ -49,10 +49,13 @@ option {
   left: 0;
 }
 
+
+
 .header__inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: nowrap; 
   width: 100%;
   max-width: 70rem;
   padding: 0 1rem;
