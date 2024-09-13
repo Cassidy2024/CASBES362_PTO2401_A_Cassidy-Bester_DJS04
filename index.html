@@ -103,21 +103,24 @@
       </div>
     </header>
 
+  <book-preview></book-preview>
+
     <main class="list">
       <div class="list__items" data-list-items></div>
       <div class="list__message" data-list-message>
         No results found. Your filters might be too narrow.
       </div>
-      <button class="list__button" data-list-button></button>
+      <button class="list__button" data-list-button>Show More <span class="list__remaining"></span></button>
     </main>
 
-    <dialog class="overlay" data-list-active>
+     <!--<dialog class="overlay" data-list-active>
       <div class="overlay__preview">
-        <img class="overlay__blur" data-list-blur src="" /><img
+       
+         <img class="overlay__blur" data-list-blur src="" /><img
           class="overlay__image"
           data-list-image
           src=""
-        />
+        /> 
       </div>
       <div class="overlay__content">
         <h3 class="overlay__title" data-list-title></h3>
@@ -133,7 +136,7 @@
           Close
         </button>
       </div>
-    </dialog>
+    </dialog>-->
 
     <dialog class="overlay" data-search-overlay>
       <div class="overlay__content">
